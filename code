@@ -1,0 +1,30 @@
+def prime_factorization(n):
+    factors = []
+    i = 2
+    while i * i <= n:
+        if n % i:
+            i += 1
+        else:
+            n //= i
+            factors.append(i)
+    if n > 1:
+        factors.append(n)
+    return factors
+
+def gcd(a, b):
+
+    while b:
+        a, b = b, a % b
+    return a
+
+n1 = int(input("Enter the first integer: "))
+n2 = int(input("Enter the second integer: "))
+
+factors1 = prime_factorization(n1)
+factors2 = prime_factorization(n2)
+
+gcd_val = gcd(n1, n2)
+
+print("Prime factorization of", n1, "is", factors1)
+print("Prime factorization of", n2, "is", factors2)
+print("GCD of", n1, "and", n2, "is", gcd_val)
