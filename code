@@ -12,13 +12,23 @@ def prime_factorization(n):
     return factors
 
 def gcd(a, b):
-
     while b:
         a, b = b, a % b
     return a
 
-n1 = int(input("Enter the first integer: "))
-n2 = int(input("Enter the second integer: "))
+while True:
+    try:
+        n1 = int(input("Enter the first integer: "))
+        break  # Exit the loop if n1 is entered successfully
+    except ValueError:
+        print("\nEnter a valid integer for n1.\n")
+
+while True:
+    try:
+        n2 = int(input("Enter the second integer: "))
+        break  # Exit the loop if n2 is entered successfully
+    except ValueError:
+        print("\nEnter a valid integer for n2.\n")
 
 factors1 = prime_factorization(n1)
 factors2 = prime_factorization(n2)
