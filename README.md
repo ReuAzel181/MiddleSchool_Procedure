@@ -6,3 +6,4 @@ oki oki
 Oki hello hehe
 Yehey day 7
 Lezzgo day 8
+Nawala yung streak ko kahit meron naman hays
