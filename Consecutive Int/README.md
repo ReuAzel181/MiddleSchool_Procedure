@@ -8,7 +8,7 @@ This project implements two algorithms to find the greatest common divisor (GCD)
 - **Consecutive Integer Algorithm**: This algorithm iterates through all integers from 1 to the minimum of the two numbers to find the GCD. It is less efficient than the Euclidean algorithm.
 
 ## Usage
-1. Run the `gcd.py` file to see the GCD calculation using both algorithms.
+1. Run the `Comparison.py` file to see the GCD calculation using both algorithms.
 2. The output will display the GCD, the number of iterations performed, and the time taken by each algorithm.
 
 ## Requirements
@@ -22,3 +22,5 @@ Feel free to contribute to this project by forking and submitting a pull request
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+![UI](https://github.com/ReuAzel181/CI-Euclidian-Iteration-/blob/main/Design)
